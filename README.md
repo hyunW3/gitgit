@@ -1,0 +1,2 @@
+# gitgit
+document for git
