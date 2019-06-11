@@ -21,3 +21,14 @@ document for git
 8. git push # to the web
 
 links : https://rogerdudler.github.io/git-guide/index.ko.html
+
+#Problem 
+1. waring: CRLF will be replaced by LF in ... [unix OS user]
+  or LF will be replaced by CRLF in ..  [window user]
+  
+  Solution: enable "core.autocrlf"
+  As window user 
+    git config --global(optional) core.autocrlf true
+  AS linux or Mac
+    git config --global(optional) core.autocrlf true input (input은 단방향을 의미)
+index : https://blog.jaeyoon.io/2018/01/git-crlf.html
