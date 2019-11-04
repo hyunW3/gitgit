@@ -9,6 +9,7 @@ document for git
 4. git add [something]
 5. git commit -m " [ recode the message ]
 6. git remote add origin "https://github.com/hyunW3/~ ... "
+6-1 git remote -v   local repo connect to remote repo
 7. git pull # in local
   git pull origin master # at first
   Or you could set it up so that your local master branch tracks github master branch as an upstream:
@@ -18,7 +19,7 @@ document for git
   
     7-2. git pull 시 error = fatal: refusing to merge unrelated histories
     -> git pull origin [branchname] --allow-unrelated-histories
-8. git push # to the web
+8. git push # to the web // git push origin master
 
 links : https://rogerdudler.github.io/git-guide/index.ko.html
 
