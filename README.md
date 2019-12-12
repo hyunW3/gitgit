@@ -4,8 +4,8 @@ document for git
 # How to commit the git
 
 1. git init 
-2. git config --global user.name "hyunW3"
-3. git config --global user.email "0176778602@naver.com"
+2. git config --global user.name "name"
+3. git config --global user.email "tour email"
 4. git add [something]
 5. git commit -m " [ recode the message ]
 6. git remote add origin "https://github.com/hyunW3/~ ... "
@@ -34,6 +34,9 @@ document for git
 
 links : https://rogerdudler.github.io/git-guide/index.ko.html
 
+#Question
+git commit, git checkout, git merge
+
 #Problem 
 1. waring: CRLF will be replaced by LF in ... [unix OS user]
   or LF will be replaced by CRLF in ..  [window user]
@@ -44,3 +47,5 @@ links : https://rogerdudler.github.io/git-guide/index.ko.html
   AS linux or Mac
     git config --global(optional) core.autocrlf true input (input은 단방향을 의미)
 index : https://blog.jaeyoon.io/2018/01/git-crlf.html
+
+
