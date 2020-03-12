@@ -25,6 +25,7 @@ document for git
 
 # temperary not asking 
 1-1. git config credential.helper store -> almost perment
+
 1-2. git config credential.helper 'cache --timeout=360' -> default min:15
 --global 옵션으로 모든 git 활동에서 저장된 정보 이용
 
