@@ -29,11 +29,20 @@ document for git
 1-2. git config credential.helper 'cache --timeout=360' -> default min:15
 --global 옵션으로 모든 git 활동에서 저장된 정보 이용
 
-#restore the git commit
+# restore the git commit
 1. git log (to find log data)
 2. git reset --hared (your commit log, ex)64a0de...)
 
 links : https://rogerdudler.github.io/git-guide/index.ko.html
+
+# make tree project 
+(ex project A include subproject B,C)
+   A
+ /  \
+ B   C
+ 1. make repo of A, then connect to github repo
+ 2. git subtree add --prefix=[name] [github url of B,C each]
+ 3. then pull & push
 
 #Question
 git commit, git checkout, git merge
