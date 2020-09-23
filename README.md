@@ -31,7 +31,7 @@ document for git
 
 # restore the git commit
 1. git log (to find log data)
-2. git reset --hared (your commit log, ex)64a0de...)
+2. git reset --hard (your commit log, ex)64a0de...)
 
 links : https://rogerdudler.github.io/git-guide/index.ko.html
 
