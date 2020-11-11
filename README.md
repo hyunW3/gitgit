@@ -32,8 +32,25 @@ document for git
 # restore the git commit
 1. git log (to find log data)
 2. git reset --hard (your commit log, ex)64a0de...)
+또는 git reset HEAD^ (한번 뒤로) / HEAD^^ (두번 뒤로) 사용하자
+
+# git reset 취소
+1. git reflog
+2. git reset --hard HEAD@{이동하고 싶은 번호}
+
 
 links : https://rogerdudler.github.io/git-guide/index.ko.html
+
+# over 100MB commit cancel
+커밋전에 .gitignore 설정 잘하자! 
+https://rtyley.github.io/bfg-repo-cleaner/
+1. jar file 다운받고 / java를 설치한다
+2. 해당 repo 에서 java -jar bfg-1.13.0.jar(버전 맞추어서) --strip-blobs-bigger-than 100M
+3. git repack && git gc (에러 발생시)
+4. git push 하면 된다.
+
+
+출처: https://vateran.tistory.com/51 [BrainDump]
 
 # make tree project 
 (ex project A include subproject B,C)
