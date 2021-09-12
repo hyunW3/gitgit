@@ -27,7 +27,8 @@ document for git
 1-1. git config credential.helper store -> almost perment
 
 1-2. git config credential.helper 'cache --timeout=360' -> default min:15
---global 옵션으로 모든 git 활동에서 저장된 정보 이용
+--global 옵션으로 모든 git 활동에서 저장된 정보 이용    
+해당 기록 삭제 : git config --local --unset credential.helper 
 
 # restore the git commit
 1. git log (to find log data)
